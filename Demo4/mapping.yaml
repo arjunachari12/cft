@@ -9,11 +9,11 @@ Mappings:
   AWSRegionArch2AMI:
     us-west-2:
       HVM64: ami-0518bb0e75d3619ca
-    EnvironmentToInstanceType:
-      development:
-        instanceType: t2.micro
-      production:
-        instanceType: t2.small
+  EnvironmentToInstanceType:
+    development:
+      instanceType: t2.micro
+    production:
+      instanceType: t2.small
 
 Resources:
   EC2Instance:
